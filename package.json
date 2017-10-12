@@ -1,11 +1,15 @@
 {
   "name": "wf-snippets",
-  "displayName": "wf-snippets",
+  "displayName": "Workflow Snippets",
   "description": "Custom snippets, nothing less, nothing more.",
   "version": "0.0.1",
   "publisher": "garymeehan",
   "engines": {
     "vscode": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garmeeh/wf-snippets"
   },
   "categories": ["Snippets"],
   "contributes": {
