@@ -1,0 +1,19 @@
+{
+  "name": "wf-snippets",
+  "displayName": "wf-snippets",
+  "description": "Custom snippets, nothing less, nothing more.",
+  "version": "0.0.1",
+  "publisher": "garymeehan",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}

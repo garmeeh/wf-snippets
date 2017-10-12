@@ -1,0 +1,18 @@
+{
+  "Basic Story": {
+    "prefix": "sbb",
+    "body": [
+      "import React from 'react';",
+      "import { storiesOf } from '@storybook/react';",
+      "import { withInfo } from '@storybook/addon-info';",
+      "",
+      "import ${1:Component} from '../src/components/${1:Component}/${1:Component}';",
+      "",
+      "const stories = storiesOf('${1:Component}', module);",
+      "",
+      "stories.add('${1:Component}', withInfo('${2:Description}')(() => <${1:Component} />));",
+      ""
+    ],
+    "description": "Basic start of storybook story"
+  }
+}
